@@ -127,14 +127,12 @@ main{
 .video-blog{
     width:100%;
     max-width:800px;
-    height:450px;
     display:block;
     margin:20px auto;
-    border:none;
     border-radius:15px;
     box-shadow:0 4px 12px rgba(0,0,0,0.2);
-
 }
+
 
 /* EQUIPO */
 

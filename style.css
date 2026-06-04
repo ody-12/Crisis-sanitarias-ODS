@@ -44,7 +44,8 @@ header{
     display:block;
 }
 
-.prev,.next{
+.prev,
+.next{
     position:absolute;
     top:50%;
     transform:translateY(-50%);
@@ -53,10 +54,16 @@ header{
     border:none;
     padding:10px;
     cursor:pointer;
+    border-radius:5px;
 }
 
-.prev{left:10px;}
-.next{right:10px;}
+.prev{
+    left:10px;
+}
+
+.next{
+    right:10px;
+}
 
 main{
     width:90%;
@@ -68,6 +75,26 @@ main{
     padding:25px;
     margin:20px 0;
     border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h2{
+    margin-bottom:15px;
+    color:#1565c0;
+}
+
+.card h3{
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+.card p{
+    line-height:1.6;
+}
+
+.card ul{
+    margin-left:20px;
+    margin-top:10px;
 }
 
 .info-grid{
@@ -79,6 +106,7 @@ main{
 .box{
     background:#e3f2fd;
     padding:15px;
+    border-radius:8px;
 }
 
 .acciones{
@@ -91,16 +119,37 @@ main{
     background:#bbdefb;
     padding:15px;
     border-left:5px solid #1565c0;
+    border-radius:5px;
 }
+
+/* BLOG */
+
+.video-blog{
+    width:100%;
+    max-width:800px;
+    display:block;
+    margin:20px auto;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* EQUIPO */
 
 .equipo ul{
     list-style:none;
     text-align:center;
 }
 
+.equipo li{
+    padding:5px 0;
+}
+
+/* FOOTER */
+
 footer{
     background:#0d47a1;
     color:white;
     text-align:center;
     padding:15px;
+    margin-top:20px;
 }
